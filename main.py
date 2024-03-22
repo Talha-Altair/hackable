@@ -92,4 +92,4 @@ if __name__ == "__main__":
             connection.commit()
             connection.close()
 
-    app.run(host='0.0.0.0') # runs on machine ip address to make it visible on netowrk
+    app.run(host='0.0.0.0', port=80) # runs on machine ip address to make it visible on netowrk
